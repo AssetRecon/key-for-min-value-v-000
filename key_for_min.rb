@@ -10,5 +10,6 @@ def key_for_min_value(name_hash)
   name_hash.collect do |key, value|
     pre[counter] = value
     keys << key
+    couter += 1
   end
 end
